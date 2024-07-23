@@ -1,18 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>코코넛톡 - 채팅 목록</title>
-  <link href="./css/pages/common.css" rel="stylesheet">
-  <link href="./css/pages/chats.css" rel="stylesheet">
-  <link href="./css/components/navbar.css" rel="stylesheet">
-  <link href="./css/components/header.css" rel="stylesheet">
-  <link href="./css/components/userlist.css" rel="stylesheet">
-  <link href="./img/coconut.png" rel="icon">
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>코코넛톡 - 채팅 목록</title>
+    <link href="./css/pages/common.css" rel="stylesheet" />
+    <link href="./css/pages/chats.css" rel="stylesheet" />
+    <link href="./css/components/navbar.css" rel="stylesheet" />
+    <link href="./css/components/header.css" rel="stylesheet" />
+    <link href="./css/components/userlist.css" rel="stylesheet" />
+    <link href="./img/coconut.png" rel="icon" />
+  </head>
+  <body>
+    <div class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a href="friends.html">
+            <i class="fas fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a href="chats.html">
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="header">
+        <h3 class="header__title">친구</h3>
+        <div class="header__menu">
+          <span><i class="fas fa-search"></i></span>
+          &nbsp;
+          <span><i class="fas fa-user-plus"></i></span>
+        </div>
+      </div>
+      <div class="main">
+        <div class="user-list">
+          <div class="user">
+            <div class="user__column">
+              <div class="user__pic"></div>
+            </div>
+            <div class="user__column">
+              <p class="user__nick">친구 또는 채팅방 이름</p>
+              <p class="user__state">메시지 또는 상태</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
