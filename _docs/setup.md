@@ -29,3 +29,17 @@ cd class101-web-messenger_coconuttalk
 ### indent-raindow.
 
 - 인덴트 깊이를 색상으로 표시
+
+## 1-1 HTML과 CSS
+
+### src/index.html
+
+- `index.html` 생성
+- html snippet
+  - `!` -> Enter
+- 파일 편집
+
+### src/style.css
+
+- `style.css` 생성
+- 파일 편집
