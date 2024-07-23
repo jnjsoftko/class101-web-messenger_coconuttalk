@@ -146,3 +146,39 @@
 - 복사한 <i> 태그의 시작 태그에 클래스를 추가하여 사이즈를
 
 조절할 수 있습니다.
+
+## 1-6 메신저 웹사이트 코딩 준비하기
+
+- src
+
+  - chat.html
+  - chats.html
+  - common.css
+  - friends.html
+
+  - css
+    - components
+      - header.css
+      - navbar.css
+      - userlist.css
+  - pages
+
+    - chat.css
+    - chats.css
+    - common.css
+    - friends.css
+    - index.css
+
+  - img
+    - coconut.png
+
+- components: 여러 페이지에서 재사용될 요소들에 대한 스타일
+- pages: 각 페이지별 스타일
+
+- common.css: 모든 페이지에 공통적으로 적용될 스타일
+
+### common.css
+
+- 저작권 걱정없이 사용할 수 있는 '나눔바른펜' 글꼴을 적용
+
+- box-sizing을 border-box로 지정할 경우 width와 height에 안쪽 여백까지 포함되어 크기가 계산됩니다. 코코넛톡의 모든 요소는 이 방식을 기반으로 크기를 결정할 예정입니다.
