@@ -40,6 +40,14 @@
   font-size: 0.9em;
 }
 
+.login .login__form input:focus {
+  outline: none;
+}
+
+.login .login__form input::placeholder {
+  color: #bdbdbd;
+}
+
 .login .login__form .login__form__id {
   padding: 3px 10px;
   border-bottom: none;
@@ -58,4 +66,8 @@
   margin-top: 6px;
   border: 1px solid #bdbdbd;
   cursor: pointer;
+}
+
+.login .login__form .login__form__bt:active {
+  background-color: #6f7d57;
 }
