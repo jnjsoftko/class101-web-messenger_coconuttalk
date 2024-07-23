@@ -1,0 +1,31 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+}
+
+.relative {
+  position: relative;
+  top: 20px;
+  left: 100px;
+}
+
+.absolute {
+  position: absolute;
+  top: 50px;
+  left: 300px;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
