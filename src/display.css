@@ -1,0 +1,30 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+  /*
+  주축: 자식 요소의 흐름 방향
+  교차축: 주축의 반대축
+  */
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
