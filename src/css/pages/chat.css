@@ -19,3 +19,49 @@
 .chat-user {
   background-color: #f2f2f2;
 }
+
+.chat-form {
+  height: 160px;
+  background-color: #ffffff;
+}
+
+.chat-form__plugin {
+  height: 40px;
+  background-color: #f2f2f2;
+}
+
+.chat-form__plugin .chat-form__icon {
+  margin: 0 0 0 10px;
+  line-height: 40px;
+}
+
+.chat-form .chat-form__field {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
+  font-size: 1em;
+}
+
+.chat-form .chat-form__msg {
+  width: calc(100% - 120px);
+  height: 100px;
+  padding: 10px;
+  border: none;
+  resize: none;
+}
+
+.chat-form .chat-form__msg:focus {
+  outline: none;
+}
+
+.chat-form .chat-form__bt {
+  width: 120px;
+  height: 100px;
+  background-color: #9ec4cf;
+  border-radius: 8px;
+}
+
+.chat-form .chat-form__bt:active {
+  background-color: #a1bec7;
+}
