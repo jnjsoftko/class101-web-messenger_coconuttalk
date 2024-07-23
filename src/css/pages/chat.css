@@ -65,3 +65,26 @@
 .chat-form .chat-form__bt:active {
   background-color: #a1bec7;
 }
+
+/* 말풍선 스타일 */
+.comment {
+  position: relative;
+  left: 20px;
+  width: 280px;
+  height: 50px;
+  list-style-type: none;
+  background-color: #9ec4cf;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  border-radius: 10px;
+  line-height: 30px;
+}
+
+.comment::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  border-right: 16px solid #9ec4cf;
+  border-bottom: 16px solid transparent;
+}
